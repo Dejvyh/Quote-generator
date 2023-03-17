@@ -1,0 +1,10 @@
+.card {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.card-title {
+  text-align: center;
+}
