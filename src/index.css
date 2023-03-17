@@ -3,6 +3,8 @@
 :root {
 --LightCyan: hsl(193, 38%, 86%);
 --NeonGreen: hsl(150, 100%, 66%);
+--NeonGreen-shade: hsl(150, 60%, 66%);
+--NeonGreen-disabled: hsl(150, 10%, 66%);
 --GrayishBlue: hsl(217, 19%, 38%);
 --DarkGrayishBlue: hsl(217, 19%, 24%);
 --DarkBlue: hsl(218, 23%, 16%);
@@ -13,6 +15,7 @@ body {
   font-family: 'Manrope', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--DarkBlue);
 }
 
 *, *::before, *::after {

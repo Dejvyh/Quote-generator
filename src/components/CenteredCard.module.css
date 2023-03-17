@@ -1,10 +1,33 @@
 .card {
   padding: 20px;
-  border: 1px solid gray;
-  border-radius: 5px;
-  width: 400px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 480px;
+  background-color: var(--DarkGrayishBlue);
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .card-title {
-  text-align: center;
+  color: var(--NeonGreen);
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 24px;
+}
+
+.card-text {
+  color: var(--LightCyan);
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.card img{
+  margin-bottom: 32px;
+  width: 100%;
+  max-width: 380px;
 }

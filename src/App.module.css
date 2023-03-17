@@ -1,8 +1,28 @@
 .app-container {
   height: 100vh;
   height: 100dvh;
+  padding: 0 16px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.load-btn{
+  transform: translateY(-50%);
+  border: 0;
+  background-color: var(--NeonGreen);
+  padding: 16px;
+  border-radius: 50%;
+  transition: background-color .1s ease-in-out;
+}
+
+.load-btn:hover{
+  cursor: pointer;
+  background-color: var(--NeonGreen-shade);
+}
+
+.load-btn:disabled{
+  background-color: var(--NeonGreen-disabled);
+  cursor:wait;
 }
